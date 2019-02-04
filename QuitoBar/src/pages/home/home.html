@@ -1,0 +1,24 @@
+<div id="custom-overlay" [style.display]="splash ? 'flex': 'none'">
+  <div class="flb">
+    <div class="Aligner-item Aligner-item--top"></div>
+    <img src="assets/Logo-QuitoBar.png">
+    <div class="Aligner-item Aligner-item--bottom"></div>
+  </div>
+</div>
+
+<ion-header>
+  <ion-navbar color ="dark">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Quito Bar</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="bg-image no-scroll" padding>
+  <h1 class="ion-title" text-center><img src="assets/Logo-QuitoBar.png"></h1>
+
+  <h4 text-center>Te damos la bienvenida a nuestra applicacion</h4>
+
+  <button ion-button full menuToggle>Comencemos</button>
+</ion-content>
